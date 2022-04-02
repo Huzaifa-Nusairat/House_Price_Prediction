@@ -1,8 +1,7 @@
-//![alt text](github_url_image?raw=true)to add image
 
--   ## Title of the project
-
-prepared by:
+-   ## House Price Prediction
+![alt text](https://github.com/Huzaifa-Nusairat/House_Price_Prediction/blob/master/Images/Traditional-style-suburban-home-shutterstock_398991412-823eff-1024x546.jpg?raw=true)
+prepared by:Huzaifa Nusairat
 
 -   ## problem overview
 
