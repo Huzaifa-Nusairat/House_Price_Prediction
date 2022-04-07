@@ -16,7 +16,7 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
        160	2-STORY PUD - 1946 & NEWER
        180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
-
+===================================================================
 MSZoning: Identifies the general zoning classification of the sale.
 		
        A	Agriculture
@@ -27,43 +27,37 @@ MSZoning: Identifies the general zoning classification of the sale.
        RL	Residential Low Density
        RP	Residential Low Density Park 
        RM	Residential Medium Density
-	
+	===================================================================
 LotFrontage: Linear feet of street connected to property
-
+===================================================================
 LotArea: Lot size in square feet
-
+===================================================================
 Street: Type of road access to property
 
        Grvl	Gravel	
        Pave	Paved
-       	
-Alley: Type of alley access to property
-
-       Grvl	Gravel
-       Pave	Paved
-       NA 	No alley access
-		
+		===================================================================
 LotShape: General shape of property
 
        Reg	Regular	
        IR1	Slightly irregular
        IR2	Moderately Irregular
        IR3	Irregular
-       
+       ===================================================================
 LandContour: Flatness of the property
 
        Lvl	Near Flat/Level	
        Bnk	Banked - Quick and significant rise from street grade to building
        HLS	Hillside - Significant slope from side to side
        Low	Depression
-		
+	===================================================================	
 Utilities: Type of utilities available
 		
        AllPub	All public Utilities (E,G,W,& S)	
        NoSewr	Electricity, Gas, and Water (Septic Tank)
        NoSeWa	Electricity and Gas Only
        ELO	Electricity only	
-	
+	===================================================================
 LotConfig: Lot configuration
 
        Inside	Inside lot
@@ -71,13 +65,13 @@ LotConfig: Lot configuration
        CulDSac	Cul-de-sac
        FR2	Frontage on 2 sides of property
        FR3	Frontage on 3 sides of property
-	
+	===================================================================
 LandSlope: Slope of property
 		
        Gtl	Gentle slope
        Mod	Moderate Slope	
        Sev	Severe Slope
-	
+	===================================================================
 Neighborhood: Physical locations within Ames city limits
 
        Blmngtn	Bloomington Heights
@@ -105,7 +99,7 @@ Neighborhood: Physical locations within Ames city limits
        StoneBr	Stone Brook
        Timber	Timberland
        Veenker	Veenker
-			
+===================================================================			
 Condition1: Proximity to various conditions
 	
        Artery	Adjacent to arterial street
@@ -117,7 +111,7 @@ Condition1: Proximity to various conditions
        PosA	Adjacent to postive off-site feature
        RRNe	Within 200' of East-West Railroad
        RRAe	Adjacent to East-West Railroad
-	
+	===================================================================
 Condition2: Proximity to various conditions (if more than one is present)
 		
        Artery	Adjacent to arterial street
@@ -129,7 +123,7 @@ Condition2: Proximity to various conditions (if more than one is present)
        PosA	Adjacent to postive off-site feature
        RRNe	Within 200' of East-West Railroad
        RRAe	Adjacent to East-West Railroad
-	
+	===================================================================
 BldgType: Type of dwelling
 		
        1Fam	Single-family Detached	
@@ -137,7 +131,7 @@ BldgType: Type of dwelling
        Duplx	Duplex
        TwnhsE	Townhouse End Unit
        TwnhsI	Townhouse Inside Unit
-	
+	===================================================================
 HouseStyle: Style of dwelling
 	
        1Story	One story
@@ -146,9 +140,9 @@ HouseStyle: Style of dwelling
        2Story	Two story
        2.5Fin	Two and one-half story: 2nd level finished
        2.5Unf	Two and one-half story: 2nd level unfinished
-       SFoyer	Split Foyer
+       SFoyer	Split Foyerx
        SLvl	Split Level
-	
+	===================================================================
 OverallQual: Rates the overall material and finish of the house
 
        10	Very Excellent
@@ -174,11 +168,11 @@ OverallCond: Rates the overall condition of the house
        3	Fair
        2	Poor
        1	Very Poor
-		
+	===================================================================	
 YearBuilt: Original construction date
-
+===================================================================
 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
-
+===================================================================
 RoofStyle: Type of roof
 
        Flat	Flat
@@ -187,7 +181,7 @@ RoofStyle: Type of roof
        Hip	Hip
        Mansard	Mansard
        Shed	Shed
-		
+		===================================================================
 RoofMatl: Roof material
 
        ClyTile	Clay or Tile
@@ -198,7 +192,7 @@ RoofMatl: Roof material
        Tar&Grv	Gravel & Tar
        WdShake	Wood Shakes
        WdShngl	Wood Shingles
-		
+	===================================================================	
 Exterior1st: Exterior covering on house
 
        AsbShng	Asbestos Shingles
@@ -218,7 +212,7 @@ Exterior1st: Exterior covering on house
        VinylSd	Vinyl Siding
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
-	
+	===================================================================
 Exterior2nd: Exterior covering on house (if more than one material)
 
        AsbShng	Asbestos Shingles
@@ -238,7 +232,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        VinylSd	Vinyl Siding
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
-	
+	===================================================================
 MasVnrType: Masonry veneer type
 
        BrkCmn	Brick Common
@@ -246,9 +240,9 @@ MasVnrType: Masonry veneer type
        CBlock	Cinder Block
        None	None
        Stone	Stone
-	
+	===================================================================
 MasVnrArea: Masonry veneer area in square feet
-
+===================================================================
 ExterQual: Evaluates the quality of the material on the exterior 
 		
        Ex	Excellent
@@ -256,7 +250,7 @@ ExterQual: Evaluates the quality of the material on the exterior
        TA	Average/Typical
        Fa	Fair
        Po	Poor
-		
+		===================================================================
 ExterCond: Evaluates the present condition of the material on the exterior
 		
        Ex	Excellent
@@ -264,7 +258,7 @@ ExterCond: Evaluates the present condition of the material on the exterior
        TA	Average/Typical
        Fa	Fair
        Po	Poor
-		
+	===================================================================	
 Foundation: Type of foundation
 		
        BrkTil	Brick & Tile
@@ -273,7 +267,7 @@ Foundation: Type of foundation
        Slab	Slab
        Stone	Stone
        Wood	Wood
-		
+	===================================================================	
 BsmtQual: Evaluates the height of the basement
 
        Ex	Excellent (100+ inches)	
@@ -282,7 +276,7 @@ BsmtQual: Evaluates the height of the basement
        Fa	Fair (70-79 inches)
        Po	Poor (<70 inches
        NA	No Basement
-		
+	===================================================================	
 BsmtCond: Evaluates the general condition of the basement
 
        Ex	Excellent
@@ -291,7 +285,7 @@ BsmtCond: Evaluates the general condition of the basement
        Fa	Fair - dampness or some cracking or settling
        Po	Poor - Severe cracking, settling, or wetness
        NA	No Basement
-	
+	===================================================================
 BsmtExposure: Refers to walkout or garden level walls
 
        Gd	Good Exposure
@@ -299,7 +293,7 @@ BsmtExposure: Refers to walkout or garden level walls
        Mn	Mimimum Exposure
        No	No Exposure
        NA	No Basement
-	
+	===================================================================
 BsmtFinType1: Rating of basement finished area
 
        GLQ	Good Living Quarters
@@ -309,9 +303,9 @@ BsmtFinType1: Rating of basement finished area
        LwQ	Low Quality
        Unf	Unfinshed
        NA	No Basement
-		
+===================================================================		
 BsmtFinSF1: Type 1 finished square feet
-
+===================================================================
 BsmtFinType2: Rating of basement finished area (if multiple types)
 
        GLQ	Good Living Quarters
@@ -321,13 +315,13 @@ BsmtFinType2: Rating of basement finished area (if multiple types)
        LwQ	Low Quality
        Unf	Unfinshed
        NA	No Basement
-
+===================================================================
 BsmtFinSF2: Type 2 finished square feet
-
+===================================================================
 BsmtUnfSF: Unfinished square feet of basement area
-
+===================================================================
 TotalBsmtSF: Total square feet of basement area
-
+===================================================================
 Heating: Type of heating
 		
        Floor	Floor Furnace
@@ -336,7 +330,7 @@ Heating: Type of heating
        Grav	Gravity furnace	
        OthW	Hot water or steam heat other than gas
        Wall	Wall furnace
-		
+		===================================================================
 HeatingQC: Heating quality and condition
 
        Ex	Excellent
@@ -344,12 +338,12 @@ HeatingQC: Heating quality and condition
        TA	Average/Typical
        Fa	Fair
        Po	Poor
-		
+	===================================================================	
 CentralAir: Central air conditioning
 
        N	No
        Y	Yes
-		
+	===================================================================	
 Electrical: Electrical system
 
        SBrkr	Standard Circuit Breakers & Romex
@@ -357,27 +351,27 @@ Electrical: Electrical system
        FuseF	60 AMP Fuse Box and mostly Romex wiring (Fair)
        FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
        Mix	Mixed
-		
+		===================================================================
 1stFlrSF: First Floor square feet
- 
+====================================================================
 2ndFlrSF: Second floor square feet
-
+===================================================================
 LowQualFinSF: Low quality finished square feet (all floors)
-
+===================================================================
 GrLivArea: Above grade (ground) living area square feet
-
+===================================================================
 BsmtFullBath: Basement full bathrooms
-
+===================================================================
 BsmtHalfBath: Basement half bathrooms
-
+===================================================================
 FullBath: Full bathrooms above grade
-
+===================================================================
 HalfBath: Half baths above grade
-
+===================================================================
 Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
-
+===================================================================
 Kitchen: Kitchens above grade
-
+===================================================================
 KitchenQual: Kitchen quality
 
        Ex	Excellent
@@ -385,9 +379,9 @@ KitchenQual: Kitchen quality
        TA	Typical/Average
        Fa	Fair
        Po	Poor
-       	
+       	===================================================================
 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
-
+===================================================================
 Functional: Home functionality (Assume typical unless deductions are warranted)
 
        Typ	Typical Functionality
@@ -398,18 +392,9 @@ Functional: Home functionality (Assume typical unless deductions are warranted)
        Maj2	Major Deductions 2
        Sev	Severely Damaged
        Sal	Salvage only
-		
+	===================================================================	
 Fireplaces: Number of fireplaces
-
-FireplaceQu: Fireplace quality
-
-       Ex	Excellent - Exceptional Masonry Fireplace
-       Gd	Good - Masonry Fireplace in main level
-       TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
-       Fa	Fair - Prefabricated Fireplace in basement
-       Po	Poor - Ben Franklin Stove
-       NA	No Fireplace
-		
+	===================================================================	
 GarageType: Garage location
 		
        2Types	More than one type of garage
@@ -419,20 +404,20 @@ GarageType: Garage location
        CarPort	Car Port
        Detchd	Detached from home
        NA	No Garage
-		
+	===================================================================	
 GarageYrBlt: Year garage was built
-		
+		===================================================================
 GarageFinish: Interior finish of the garage
 
        Fin	Finished
        RFn	Rough Finished	
        Unf	Unfinished
        NA	No Garage
-		
+		===================================================================
 GarageCars: Size of garage in car capacity
-
+===================================================================
 GarageArea: Size of garage in square feet
-
+===================================================================
 GarageQual: Garage quality
 
        Ex	Excellent
@@ -441,7 +426,7 @@ GarageQual: Garage quality
        Fa	Fair
        Po	Poor
        NA	No Garage
-		
+	===================================================================	
 GarageCond: Garage condition
 
        Ex	Excellent
@@ -450,56 +435,32 @@ GarageCond: Garage condition
        Fa	Fair
        Po	Poor
        NA	No Garage
-		
+	===================================================================	
 PavedDrive: Paved driveway
 
        Y	Paved 
        P	Partial Pavement
        N	Dirt/Gravel
-		
+	===================================================================	
 WoodDeckSF: Wood deck area in square feet
-
+===================================================================
 OpenPorchSF: Open porch area in square feet
-
+===================================================================
 EnclosedPorch: Enclosed porch area in square feet
-
+===================================================================
 3SsnPorch: Three season porch area in square feet
-
+===================================================================
 ScreenPorch: Screen porch area in square feet
-
+===================================================================
 PoolArea: Pool area in square feet
 
-PoolQC: Pool quality
-		
-       Ex	Excellent
-       Gd	Good
-       TA	Average/Typical
-       Fa	Fair
-       NA	No Pool
-		
-Fence: Fence quality
-		
-       GdPrv	Good Privacy
-       MnPrv	Minimum Privacy
-       GdWo	Good Wood
-       MnWw	Minimum Wood/Wire
-       NA	No Fence
-	
-MiscFeature: Miscellaneous feature not covered in other categories
-		
-       Elev	Elevator
-       Gar2	2nd Garage (if not described in garage section)
-       Othr	Other
-       Shed	Shed (over 100 SF)
-       TenC	Tennis Court
-       NA	None
-		
+	===================================================================	
 MiscVal: $Value of miscellaneous feature
-
+===================================================================
 MoSold: Month Sold (MM)
-
+===================================================================
 YrSold: Year Sold (YYYY)
-
+===================================================================
 SaleType: Type of sale
 		
        WD 	Warranty Deed - Conventional
@@ -512,7 +473,7 @@ SaleType: Type of sale
        ConLI	Contract Low Interest
        ConLD	Contract Low Down
        Oth	Other
-		
+	===================================================================	
 SaleCondition: Condition of sale
 
        Normal	Normal Sale
